@@ -1,7 +1,6 @@
-body{
-  position: relative;
-  display: flex;
-}
+/* body{
+  /* position: relative; */
+  /* display: flex; */
 
 main{
   position: absolute;
@@ -125,4 +124,10 @@ main{
   height: 100%;
 }
 /* END PICTURE SECTION */
+
+/* START FOOTER */
+.footer{
+margin-top: 200px;
+}
+/* END FOOTER */
 /* END MAIN */
