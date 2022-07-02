@@ -2,16 +2,10 @@
   /* position: relative; */
   /* display: flex; */
 
-main{
-  position: absolute;
-  left: 30%;
-  padding: 5% 0;
-}
-
 /* START HEADER */
 .header{
   position: fixed;
-  padding: 20px;
+  padding: 30px 20px;
   width: calc(30% - 40px);
   height: 100vh;
   border-right: solid #848080 ;
@@ -20,7 +14,6 @@ main{
 }
 
 .header_logo{
-  padding-top: 30px;
   margin: 0 auto;
 }
 
@@ -58,13 +51,22 @@ main{
 }
 /* END HEADER */
 
+.body_right{
+  padding: 15px;
+  width: 70%;
+  margin-left: 30%;
+  text-align: center;
+}
+
 /* START MAIN */
 .main{
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 70%;
+  width: 100%;
+  /* margin-left: 30%;
+  padding: 5% 0; */
 }
 
 /* START INTRODUCTION SECTION */
