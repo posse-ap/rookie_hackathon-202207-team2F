@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 a {
     text-decoration: none;
 }
@@ -10,8 +13,8 @@ li {
 .header {
     position: fixed;
     width: 100vw;
-    height: 80px;
     background-color: #fff;
+    z-index: 100;
 }
 .header_inner {
     padding: 0 24px;
@@ -29,6 +32,7 @@ li {
     align-items: center;
     /* justify-content: space-between; */
 }
+
 .nav_item {
     align-self: center;
     display: flex;
@@ -51,7 +55,14 @@ li {
     background-color: #0071BC; 
     height: 38px;
     border-radius: 8px;
+    transition: 0.5s;
 }
+
+.official_site_link:hover{
+    transform:translateY(-10px);
+    box-shadow: 8px 4px 4px #999494;
+}
+
 .official_site_link a {
     color: white;
     line-height: 38px;
@@ -70,7 +81,7 @@ li {
 /* START MAIN */
 main { 
     margin: 0 auto;
-    padding-top: 80px;
+    padding-top: 100px;
     width: 80%;
     text-align: center;
 }
@@ -106,9 +117,9 @@ main {
 .  
 /* end INTRODUCTION */
 /* start picture section */
-.heading_wrapper{
-    margin-top: 20px;
+.heading_wrapper{margin-top: 20px;
     margin-bottom: 20px;
+
 }
 .heading_title{
     color: black;
@@ -143,10 +154,38 @@ object-fit: cover;
     width: 130%;
 }
 /* end picture section */
-/* START PICTURE SECTION */
+/* start hobby */
+.hobby_items{
+    display: flex;
+    justify-content: center;
+}
+.hobby_item{
+    padding: 30px;
+    box-shadow: 8px 4px 4px #4a4b4c;
+    transition: 0.5s;
+    margin:  20px;
+}
+.hobby_item:hover{
+    transform: translateY(-10px);
+}
+.hobby_title{
+text-align: center;
+}
+.hobby_icon{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: #0071BC;
+}
+
+/* end hobby */
+/* START FOOTER */
 .footer{
+    text-align: center;
     margin-top: 155px;
+}
+.heading_wrapper{
     text-align: center;
 }
-/* END PICTURE SECTION */
+/* END FOOTER */
 /* END MAIN */
