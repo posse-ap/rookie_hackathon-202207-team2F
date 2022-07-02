@@ -83,6 +83,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #0071bc;
+  padding-top: 5px;
 }
 
 .introduce_img{
@@ -90,7 +91,7 @@
   max-height: 400px;
   border-radius: 50%;
   overflow: hidden;
-  margin: 20px;
+  margin: 20px 0;
 }
 .introduce_img img{
   width: 100%;
@@ -98,15 +99,19 @@
 }
 
 .description_items{
+  width: 360px;
   list-style: none;
   color: black;
+  margin: 0 auto;
 }
 .description_item{
   line-height: 200%;
   font-size: 16px;
+  border-bottom: dotted;
 }
 .name{
   font-size: 32px;
+  border-bottom: none;
 }
 /* END INTRODUCTION SECTION */
 
