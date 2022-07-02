@@ -48,6 +48,17 @@
   border-radius: 10px;
   line-height: 250%;
   color: white;
+  transition: 0.75s;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.official_site_link:hover{
+  transform: translateY(-10px);
+  box-shadow: 4px 4px 4px #666;
 }
 /* END HEADER */
 
@@ -72,6 +83,7 @@
 /* START INTRODUCTION SECTION */
 .introduce_section{
   margin-bottom: 30px;
+  max-width: 70%;
 }
 
 .heading_title{
@@ -116,6 +128,10 @@
 /* END INTRODUCTION SECTION */
 
 /* START PICTURE SECTION */
+.picture_section{
+  max-width: 70%;
+}
+
 .picture_wrapper{
   display: flex;
 }
@@ -131,6 +147,44 @@
   height: 100%;
 }
 /* END PICTURE SECTION */
+
+/* START HOBBY SECTIOM */
+.hobby_section{
+  max-width: 70%;
+}
+
+.hobby_items{
+  display: flex;
+  margin-top: 10px;
+}
+
+.hobby_item{
+  margin: 0 10px;
+  box-shadow: 4px 4px 8px #666;
+  transition: 0.75s;
+}
+
+.hobby_item:hover{
+  transform: translateY(-10px);
+}
+
+.hobby_icon{
+  margin: 20px 0;
+  color: #0071bc;
+  font-size: 70px;
+}
+
+.hobby_title{
+  margin: 20px 0;
+}
+
+.hobby_text{
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+
+/* END HOBBY SECTIOM */
 
 /* START FOOTER */
 .footer{
