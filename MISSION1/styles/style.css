@@ -1,0 +1,43 @@
+body{
+  width: 100%;
+} 
+/* ここからheader */
+.header{
+  position: fixed;
+  width: 100vw;
+  padding: 24px;
+}
+.header_inner{
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_items{
+  list-style: none;
+  display: flex;
+
+} 
+.nav_item{
+  margin: 10px;
+}
+.header_inner_center{
+  display: inline;
+
+}
+.header_nav_right{
+  padding: 20px 24px 0px 24px;
+  margin: 0 10px;
+  width: auto;
+  height: 40px;
+  background-color: blue;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+/* ここからmain */
+
+
+
+
+
