@@ -1,0 +1,140 @@
+/* body{
+  /* position: relative; */
+  /* display: flex; */
+
+/* START HEADER */
+.header{
+  position: fixed;
+  padding: 30px 20px;
+  width: calc(30% - 40px);
+  height: 100vh;
+  border-right: solid #848080 ;
+  text-align: center;
+  font-size: 14px;
+}
+
+.header_logo{
+  margin: 0 auto;
+}
+
+.header_logo_img{
+  width: 65%;
+  height: auto;
+}
+
+.header_nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.nav_items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav_item{
+  list-style: none;
+  text-align: center;
+
+}
+
+.official_site_link{
+  width: 150px;
+  background-color: #0071bc;
+  border-radius: 10px;
+  line-height: 250%;
+  color: white;
+}
+/* END HEADER */
+
+.body_right{
+  padding: 15px;
+  width: 70%;
+  margin-left: 30%;
+  text-align: center;
+}
+
+/* START MAIN */
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  /* margin-left: 30%;
+  padding: 5% 0; */
+}
+
+/* START INTRODUCTION SECTION */
+.introduce_section{
+  margin-bottom: 30px;
+}
+
+.heading_title{
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.heading_subtitle{
+  font-size: 18px;
+  font-weight: normal;
+  color: #0071bc;
+  padding-top: 5px;
+}
+
+.introduce_img{
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px 0;
+}
+.introduce_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.description_items{
+  width: 360px;
+  list-style: none;
+  color: black;
+  margin: 0 auto;
+}
+.description_item{
+  line-height: 200%;
+  font-size: 16px;
+  border-bottom: dotted;
+}
+.name{
+  font-size: 32px;
+  border-bottom: none;
+}
+/* END INTRODUCTION SECTION */
+
+/* START PICTURE SECTION */
+.picture_wrapper{
+  display: flex;
+}
+.picture_img{
+  max-width: 260px;
+  max-height: 346px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 30px 10px;
+}
+.picture_img img{
+  width: 100%;
+  height: 100%;
+}
+/* END PICTURE SECTION */
+
+/* START FOOTER */
+.footer{
+margin-top: 200px;
+}
+/* END FOOTER */
+/* END MAIN */
