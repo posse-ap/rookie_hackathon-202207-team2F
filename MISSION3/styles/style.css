@@ -132,9 +132,28 @@
 }
 
 .heading_title {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
   font-size: 36px;
   font-weight: normal;
   line-height: 48px;
+}
+
+.heading_title::before {
+  content: " ";
+  display: block;
+  width: 35%;
+  height: 24px;
+  border-bottom: dotted 1px #ADADAD;
+}
+
+.heading_title::after {
+  content: " ";
+  display: block;
+  width: 35%;
+  height: 24px;
+  border-bottom: dotted 1px #ADADAD;
 }
 
 .heading_subtitle {
@@ -262,6 +281,14 @@
 
 .team_inner {
   padding: 40px 24px;
+}
+
+.team_inner .heading_title::before {
+  border: none;
+}
+
+.team_inner .heading_title::after {
+  border: none;
 }
 
 .team_members {
