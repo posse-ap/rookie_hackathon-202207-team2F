@@ -1,0 +1,74 @@
+/* START HEADER */
+
+.header {
+  position: fixed;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.header_inner {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 10px 0;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header_logo {
+  margin: 0 auto;
+}
+
+.header_nav {
+  margin: 0 auto;
+}
+
+.nav_items {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  align-items: center;
+
+}
+
+.nav_item a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+}
+
+.official_site_link {
+  padding: 0 10px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #0071bc;
+}
+
+.official_site_link a {
+  color: #fff;
+  line-height: 40px;
+}
+
+.hamburger_menu {
+  position: absolute;
+  right: 50px;
+  width: 30px;
+  height: 20px;
+
+  border-top: solid 2px #000;
+  border-bottom: solid 2px #000;
+}
+
+.hamburger_menu::before {
+  position: absolute;
+  top: calc(50% - 1px);
+  display: block;
+  width: 30px;
+  height: 2px;
+  content: "";
+  background-color: #000;
+}
+
+/* END HEADER */
