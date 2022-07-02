@@ -92,7 +92,7 @@ main{
 .description_item{
   margin: 12px;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 40px;
   border-bottom:solid #8a7e7e;
   
 }
@@ -142,6 +142,7 @@ main{
 }
 .hobby_icon{
   font-size: 40px;
+  color: rgb(39, 64, 189);
 }
 .hobby_title{
   margin: 20px;
@@ -149,5 +150,8 @@ main{
 
 /* ここからfooter */
 .footer{
+  padding: 30px;
+  margin-top: 80px;
   text-align: center;
+  border-top: #8a7e7e;
 }

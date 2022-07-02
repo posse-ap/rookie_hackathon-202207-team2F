@@ -25,7 +25,6 @@ body{
 }
 .header_inner_center{
   display: inline;
-
 }
 .header_nav_right{
   padding: 12px;
@@ -92,7 +91,7 @@ main{
 .description_item{
   margin: 12px;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 40px;
   border-bottom:solid #8a7e7e;
   
 }
@@ -150,5 +149,7 @@ main{
 
 /* ここからfooter */
 .footer{
+  padding: 30px;
+  margin-top: 80px;
   text-align: center;
 }

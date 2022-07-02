@@ -86,7 +86,7 @@ main{
 .description_item{
   margin: 12px;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 40px;
 }
 .name{
   font-size: 36px;
@@ -120,6 +120,8 @@ main{
 /* ここからfooter */
 .footer{
   text-align: center;
+  padding: 30px;
+  margin-top: 80px;
 }
 
 
