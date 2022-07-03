@@ -152,9 +152,6 @@ height: 100%;
 object-fit: cover;
 }
 
-.shodo img{
-    /* width: 130% */
-}
 /* end picture section */
 /* start hobby */
 .hobby_items{
@@ -164,11 +161,11 @@ object-fit: cover;
 }
 .hobby_item{
     padding: 20px;
-    margin: 16px;
+    margin: 16px 0;
     box-shadow: 8px 4px 4px #4a4b4c;
     transition: 0.5s;
     margin:  20px;
-    width: 107px;
+    width: 30%;
 }
 .hobby_item:hover{
     transform: translateY(-10px);
@@ -184,6 +181,8 @@ text-align: center;
 }
 
 /* end hobby */
+/* START ORIGINAL SECTION */
+/* END ORIGINAL SECTION */
 /* START FOOTER */
 .footer{
     text-align: center;
