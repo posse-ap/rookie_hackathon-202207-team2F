@@ -116,6 +116,53 @@ main{
   height: 100%;
   object-fit: cover;
 }
+/* ここからfreearea */
+.heading_question{
+  margin: 50px 0 10px 0 ;
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+
+}
+.freearea_items{
+  list-style: none;
+}
+.freearea_item{
+  padding: 40px 100px;
+}
+.freearea_item_name{
+  font-size: 13px;
+  width: 40px;
+  height: 20px;
+  background-color: rgb(31, 79, 252);
+  border-radius: 50%;
+  padding: 30px 20px;
+  text-align: center;
+  color: rgb(248, 251, 253);
+}
+.freearea_item_content{
+  display: inline-block;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  background: #cdcdcd;
+  border-radius: 20px;
+}
+.freearea_item_content::after{
+  content: "";
+  position: absolute;
+  margin: 0 auto;
+  top: -32px;
+  bottom: 0;
+  left: 22px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 30px solid #cdcdcd;
+  border-bottom: 30px solid transparent;
+  transform:rotate(160deg);
+}
+
 
 /* ここからfooter */
 .footer{
