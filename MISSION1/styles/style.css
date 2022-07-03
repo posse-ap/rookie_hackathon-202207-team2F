@@ -152,6 +152,42 @@
 
 /* END PICTURE SECTION*/
 
+/* START REAL SECTION */
+
+.real_section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.real_items {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  gap: 2%;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.real_item {
+  padding: 20px;
+  width: 32%;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgba(173, 173, 173, 0.5) ;
+}
+
+.real_name {
+  margin-top: -32px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.real_text {
+  line-height: 24px;
+}
+
+/* END REAL SECTION */
+
 /* START FOOTER */
 
 .footer {
