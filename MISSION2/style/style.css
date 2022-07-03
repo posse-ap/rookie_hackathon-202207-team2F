@@ -203,7 +203,9 @@ a{
 }
 
 .hobby_item{
+width: 150px;
   margin: 0 10px;
+  padding: 20px;
   box-shadow: 4px 4px 8px #666;
   transition: 0.75s;
 }

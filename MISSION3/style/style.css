@@ -223,9 +223,11 @@ a{
 }
 
 .hobby_icon{
-  margin: 20px 0;
+  width: 60px;
+  margin: 20px auto;
   color: #0071bc;
   font-size: 70px;
+  text-align: center;
 }
 
 .hobby_title{
